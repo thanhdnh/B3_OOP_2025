@@ -142,7 +142,7 @@ Hãy khai báo một lớp số phức với các yêu cầu sau:
 - Khai báo các phép toán cộng, trừ, nhân, chia 2 số phức
 - Khai báo phương thức tính module của số phức
 - Khai báo phương thức tính argument của số phức
-- Khai báo phương thức cộng số phức với một số thực, sử dụng default params
+- Khai báo phương thức cộng số phức với một số thực, sử dụng default params (tối đa 3 số thực)
 - Khai báo phương thức cộng nhiều số phức, sử dụng rest params
 (Lưu ý: phương thức cộng 2 số phức và phương thức cộng số phức với một số thực phải
 sử dụng method overloading.)
