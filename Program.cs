@@ -133,3 +133,19 @@ public class Program
         student3.Print();*/
     }
 }
+
+/* LAB 03: Lớp số phức
+Một lớp số phức gồm có 2 thuộc tính: phần thực (real) và phần ảo (imaginary).
+Hãy khai báo một lớp số phức với các yêu cầu sau:
+- Có 2 phương thức getter và setter cho mỗi field
+- Có 3 dạng constructor: không tham số, có 2 tham số và copy constructor
+- Khai báo các phép toán cộng, trừ, nhân, chia 2 số phức
+- Khai báo phương thức tính module của số phức
+- Khai báo phương thức tính argument của số phức
+- Khai báo phương thức cộng số phức với một số thực, sử dụng default params
+- Khai báo phương thức cộng nhiều số phức, sử dụng rest params
+(Lưu ý: phương thức cộng 2 số phức và phương thức cộng số phức với một số thực phải
+sử dụng method overloading.)
+Hàm Main: test thử các phương thức nói trên. Lưu ý: tạo một mảng các số phức để thực
+thi kết quả.
+*/
