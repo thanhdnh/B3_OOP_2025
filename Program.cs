@@ -144,7 +144,7 @@ Hãy khai báo một lớp số phức với các yêu cầu sau:
 - Khai báo phương thức tính argument của số phức
 - Khai báo phương thức cộng số phức với một số thực, sử dụng default params (tối đa 3 số thực)
 - Khai báo phương thức cộng nhiều số phức, sử dụng rest params
-(Lưu ý: phương thức cộng 2 số phức và phương thức cộng số phức với một số thực phải
+(Lưu ý: phương thức cộng 2 số phức và phương thức cộng số phức với một số thực và phương thức cộng các số phức phải
 sử dụng method overloading.)
 Hàm Main: test thử các phương thức nói trên. Lưu ý: tạo một mảng các số phức để thực
 thi kết quả.
