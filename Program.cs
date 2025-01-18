@@ -1,4 +1,7 @@
-﻿public class Student
+﻿using System.Numerics;
+using System.Reflection.Metadata;
+
+public class Student
 {
     private string name;
     private int age;
@@ -50,16 +53,66 @@ public class NewPoint2D{
         this.Y = y;
     }
 }
+public class Vector2D{
+    private float x, y;
+    public Vector2D(float x, float y){
+        this.x = x;
+        this.y = y;
+    }
+    public void Print(){
+        Console.WriteLine("(" + x + ", " + y + ")");
+    }
+    //Method overloading for Add
+    public Vector2D Add(Vector2D other){
+        return new Vector2D(this.x + other.x, this.y + other.y);
+    }
+    public Vector2D Add(Vector2D a, float weight){//c = a + b * weight
+        return new Vector2D(this.x + a.x * weight, this.y + a.y * weight);
+    }
+    public Vector2D Add(float other){//cộng thêm 1 số cho toạ độ x và y
+        return new Vector2D(this.x+other, this.y+other);
+    }
+    public Vector2D AddMultiple(Vector2D a, float x, float y = 0){//default parameter
+        return new Vector2D(this.x + a.x + x + y, this.y + a.y + x + y);
+    }
+    public Vector2D AddMultipleVectors(params Vector2D[] vectors){//rest parameters
+        float sumX = this.x;
+        float sumY = this.y;
+        foreach(Vector2D vector in vectors){
+            sumX += vector.x;
+            sumY += vector.y;
+        }
+        return new Vector2D(sumX, sumY);
+    }
+}
 public class Program
 {
     public static void Main(string[] args)
     {
         Console.Clear();
 
-        NewPoint2D point1 = new NewPoint2D(1, 2);
+        Vector2D a = new Vector2D(1, 2);
+        Vector2D b = new Vector2D(3, 4);
+        Vector2D c = new Vector2D(5, 6);
+        Vector2D d = new Vector2D(7, 8);
+        a.Print();
+        b.Print();
+        (a.Add(b)).Print();
+        (a.Add(b, 0.5f)).Print();
+        (a.Add(0.5f)).Print();
+
+        (a.AddMultiple(b, 0.5f)).Print();//a+b+0.5
+        (a.AddMultiple(b, 0.5f, 0.2f)).Print();//a+b+0.5+0.2
+
+        (a.AddMultipleVectors()).Print();//a
+        (a.AddMultipleVectors(b)).Print();//a+b
+        (a.AddMultipleVectors(b, c)).Print();//a+b+c
+        (a.AddMultipleVectors(b, c, d)).Print();//a+b+c+d
+
+        /*NewPoint2D point1 = new NewPoint2D(1, 2);
         NewPoint2D point2 = new NewPoint2D(3, 4);
         NewPoint2D point3 = new NewPoint2D(5, 6);
-        Console.WriteLine("Number of Points: " + NewPoint2D.count);
+        Console.WriteLine("Number of Points: " + NewPoint2D.count);*/
 
         /*Point2D.CallCounter();
         Point2D.CallCounter();

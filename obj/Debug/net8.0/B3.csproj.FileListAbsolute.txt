@@ -12,3 +12,4 @@
 /Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/B3.pdb
 /Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/B3.genruntimeconfig.cache
 /Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/ref/B3.dll
+/Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/B3.sourcelink.json
