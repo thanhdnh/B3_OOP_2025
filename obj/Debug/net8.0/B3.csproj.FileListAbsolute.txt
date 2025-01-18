@@ -1,0 +1,14 @@
+/Users/hoangthanh/OOP/OOP2025/B3/bin/Debug/net8.0/B3
+/Users/hoangthanh/OOP/OOP2025/B3/bin/Debug/net8.0/B3.deps.json
+/Users/hoangthanh/OOP/OOP2025/B3/bin/Debug/net8.0/B3.runtimeconfig.json
+/Users/hoangthanh/OOP/OOP2025/B3/bin/Debug/net8.0/B3.dll
+/Users/hoangthanh/OOP/OOP2025/B3/bin/Debug/net8.0/B3.pdb
+/Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/B3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/B3.AssemblyInfoInputs.cache
+/Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/B3.AssemblyInfo.cs
+/Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/B3.csproj.CoreCompileInputs.cache
+/Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/B3.dll
+/Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/refint/B3.dll
+/Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/B3.pdb
+/Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/B3.genruntimeconfig.cache
+/Users/hoangthanh/OOP/OOP2025/B3/obj/Debug/net8.0/ref/B3.dll
